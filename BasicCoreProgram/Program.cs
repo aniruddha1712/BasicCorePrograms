@@ -11,7 +11,7 @@ namespace BasicCoreProgram
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to Basic core programs of C#");
-            Console.WriteLine("1:Flipcoin\n2:LeapYear\n3:FindPOwerOf2");
+            Console.WriteLine("1:Flipcoin\n2:LeapYear\n3:FindPOwerOf2\n4:HarmonicNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -23,6 +23,9 @@ namespace BasicCoreProgram
                     break;
                 case 3:
                     PowerOf2.FindPower();
+                    break;
+                case 4:
+                    HarmonicNum.FindHarmonicNumber();
                     break;
                 default:
                     Console.WriteLine("Enter valid input");
