@@ -10,7 +10,16 @@ namespace BasicCoreProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to BAsic core programs of C#");
+            Console.WriteLine("welcome to Basic core programs of C#");
+            Console.WriteLine("1:Flipcoin\n");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch(option)
+            {
+                case 1:
+                    FlipCoin.FindFlipCount();
+                    break;
+            }
+            Console.ReadLine();
         }
     }
 }
