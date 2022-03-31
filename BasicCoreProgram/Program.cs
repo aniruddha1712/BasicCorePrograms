@@ -11,7 +11,7 @@ namespace BasicCoreProgram
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to Basic core programs of C#");
-            Console.WriteLine("1:Flipcoin\n2:LeapYear\n3:FindPOwerOf2\n4:HarmonicNumber\n5:PrimeNumbers\n6:FindQuotientAndRemainder\n7:SwapNumbers\n8:OddEven\n9:CheckVowel\n10:");
+            Console.WriteLine("1:Flipcoin\n2:LeapYear\n3:FindPOwerOf2\n4:HarmonicNumber\n5:PrimeNumbers\n6:FindQuotientAndRemainder\n7:SwapNumbers\n8:OddEven\n9:CheckVowel\n10:LaregestAmongThree");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -41,6 +41,9 @@ namespace BasicCoreProgram
                     break;
                 case 9:
                     CheckVowel.CheckAlphabet();
+                    break;
+                case 10:
+                    LargestAmong3.FindLargest();
                     break;
                 default:
                     Console.WriteLine("Enter valid input");

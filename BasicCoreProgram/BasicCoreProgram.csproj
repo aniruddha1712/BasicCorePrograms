@@ -46,6 +46,7 @@
     <Compile Include="CheckVowel.cs" />
     <Compile Include="FlipCoin.cs" />
     <Compile Include="HarmonicNum.cs" />
+    <Compile Include="LargestAmong3.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="OddEven.cs" />
     <Compile Include="PowerOf2.cs" />
