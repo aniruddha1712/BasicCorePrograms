@@ -46,6 +46,7 @@
     <Compile Include="FlipCoin.cs" />
     <Compile Include="HarmonicNum.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="OddEven.cs" />
     <Compile Include="PowerOf2.cs" />
     <Compile Include="PrimeFactors.cs" />
     <Compile Include="Program.cs" />
